@@ -1,16 +1,13 @@
 import random
 from Functions import restart
 
-# Keep the games running
-game = True
-
 # List of available songs
 songs = ['big in japan', 'sultans of swing', 'black hole sun', 'jail house rock',
          'ring of fire', 'johnny b goode', 'age of aquarius', 'sweet home alabama',
          'winds of change', 'black magic woman']
 
 # Let the user choose to start the game
-while game:
+while True:
     print('\nR U READY TO PLAY? [y/n]\n')
     start_game = input('(minimal knowledge of music is required): ').lower()
 
