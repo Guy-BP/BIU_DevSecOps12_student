@@ -1,5 +1,5 @@
 import random
-from Functions import restart
+from Project1_Functions import restart
 
 # List of available songs
 songs = ['big in japan', 'sultans of swing', 'black hole sun', 'jail house rock',
